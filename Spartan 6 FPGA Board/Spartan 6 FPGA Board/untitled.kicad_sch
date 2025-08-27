@@ -10821,7 +10821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Personal-Library:TestPoint_Pad_D1.0mm"
 			(at 161.29 166.37 0)
 			(effects
 				(font
@@ -11168,7 +11168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Personal-Library:TestPoint_Pad_D1.0mm"
 			(at 160.02 171.45 0)
 			(effects
 				(font
@@ -13587,7 +13587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Personal-Library:TestPoint_Pad_D1.0mm"
 			(at 160.02 181.61 0)
 			(effects
 				(font
@@ -14843,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Personal-Library:TestPoint_Pad_D1.0mm"
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -15253,7 +15253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Personal-Library:TestPoint_Pad_D1.0mm"
 			(at 160.02 186.69 0)
 			(effects
 				(font
