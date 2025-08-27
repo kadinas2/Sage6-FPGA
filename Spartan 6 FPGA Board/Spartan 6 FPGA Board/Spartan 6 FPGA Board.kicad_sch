@@ -1,0 +1,2671 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "73d64222-47da-40a3-b561-6e9f55563577")
+	(paper "A4")
+	(title_block
+		(title "Sage 6 FPGA")
+		(date "2025-08-27")
+		(rev "V1.0")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(arc
+		(start 245.11 25.4)
+		(mid 247.8041 26.5159)
+		(end 248.92 29.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 063ac83c-a0f1-4aed-b266-1a7204c6f837)
+	)
+	(arc
+		(start 154.94 87.63)
+		(mid 156.0559 84.9359)
+		(end 158.75 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 125cd478-be50-4540-a0df-c9bd86c72f5e)
+	)
+	(arc
+		(start 158.75 97.79)
+		(mid 156.0559 96.6741)
+		(end 154.94 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a9e1c3e-f77e-4e52-b27c-641676f7f087)
+	)
+	(arc
+		(start 128.27 68.58)
+		(mid 127.1541 71.2741)
+		(end 124.46 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2cb897e1-1002-47e1-bf3c-97e98e6547a6)
+	)
+	(arc
+		(start 232.41 83.82)
+		(mid 235.1041 84.9359)
+		(end 236.22 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3262c3f1-dcb9-4e6e-9098-a521075f80ef)
+	)
+	(arc
+		(start 19.05 29.21)
+		(mid 20.1659 26.5159)
+		(end 22.86 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35be231d-4bcc-4a2a-b373-ffff5e5dd274)
+	)
+	(arc
+		(start 236.22 93.98)
+		(mid 235.1041 96.6741)
+		(end 232.41 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40fa41f9-40aa-4722-ad9b-2ce405acb1f1)
+	)
+	(arc
+		(start 137.16 29.21)
+		(mid 138.2759 26.5159)
+		(end 140.97 25.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44a6c82f-965f-4f3e-ae24-a8a609155352)
+	)
+	(arc
+		(start 22.86 72.39)
+		(mid 20.1659 71.2741)
+		(end 19.05 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 544cd101-5611-494d-9287-c3eae6aad47a)
+	)
+	(arc
+		(start 99.06 116.84)
+		(mid 97.9441 119.5341)
+		(end 95.25 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5992b0e1-fa6a-449e-8d03-bb1611d46f61)
+	)
+	(arc
+		(start 140.97 76.2)
+		(mid 138.2759 75.0841)
+		(end 137.16 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72318fa3-27cb-486e-9975-a910662575ad)
+	)
+	(arc
+		(start 248.92 72.39)
+		(mid 247.8041 75.0841)
+		(end 245.11 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d61f2f7-f922-4dfa-8594-9b0e38553908)
+	)
+	(arc
+		(start 102.87 134.62)
+		(mid 105.5641 135.7359)
+		(end 106.68 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f7f203c-f845-4cfd-8716-d6c334c6637e)
+	)
+	(arc
+		(start 95.25 82.55)
+		(mid 97.9441 83.6659)
+		(end 99.06 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8170b9e4-f70b-4244-9826-6fd0678a3c93)
+	)
+	(arc
+		(start 27.94 138.43)
+		(mid 29.0559 135.7359)
+		(end 31.75 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b6abeab7-5c44-467e-aa75-2b4972b5250c)
+	)
+	(arc
+		(start 121.92 109.22)
+		(mid 123.0359 106.5259)
+		(end 125.73 105.41)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b8e6e70a-65bc-4a75-83ea-e1af2b12e54d)
+	)
+	(arc
+		(start 260.35 151.13)
+		(mid 259.2341 153.8241)
+		(end 256.54 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c92c06cc-9dd8-4656-a2d0-eab6eaa29dd1)
+	)
+	(arc
+		(start 256.54 105.41)
+		(mid 259.2341 106.5259)
+		(end 260.35 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c992b17c-165c-43ae-968b-7a5aa59e6917)
+	)
+	(arc
+		(start 31.75 120.65)
+		(mid 29.0559 119.5341)
+		(end 27.94 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ced1f997-345b-4a30-819d-1ae681d35ccd)
+	)
+	(arc
+		(start 31.75 172.72)
+		(mid 29.0559 171.6041)
+		(end 27.94 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3cf332f-e9a3-466c-8e1a-49440c79a430)
+	)
+	(arc
+		(start 124.46 25.4)
+		(mid 127.1541 26.5159)
+		(end 128.27 29.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5ad7aaa-ec02-4408-85cd-2468148c1b21)
+	)
+	(arc
+		(start 106.68 168.91)
+		(mid 105.5641 171.6041)
+		(end 102.87 172.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e043d71e-d037-4064-b904-871759e03d1e)
+	)
+	(arc
+		(start 125.73 154.94)
+		(mid 123.0359 153.8241)
+		(end 121.92 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e35a71cf-283c-4d93-961e-eb7f57f10e97)
+	)
+	(arc
+		(start 27.94 86.36)
+		(mid 29.0559 83.6659)
+		(end 31.75 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc6b50a5-5e9c-4e7d-a2d9-af5553023c46)
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 193.04 86.106 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "0ab59b1e-28e5-4fdc-a177-13d425a57fb8")
+	)
+	(polyline
+		(pts
+			(xy 124.46 72.39) (xy 22.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018fe903-7c4d-4d0a-99ee-11d42a496e16")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 168.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0211489e-0a2c-45c5-a2d9-ec4ab2a1aa10")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0299051a-4485-49bc-912e-89a1853bd623")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 80.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c916e4-e6b9-4706-a313-32398ed0eb2a")
+	)
+	(polyline
+		(pts
+			(xy 260.35 109.22) (xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af03a72-e902-47d2-bec6-61bb25035496")
+	)
+	(bus
+		(pts
+			(xy 241.3 144.78) (xy 245.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7bf925-18bd-4eaa-adff-b3b06ccca89f")
+	)
+	(bus
+		(pts
+			(xy 241.3 115.57) (xy 245.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc72cef-0b45-42fb-b4d5-e8f24d103eb6")
+	)
+	(polyline
+		(pts
+			(xy 27.94 86.36) (xy 27.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102c6ab5-51bb-4a6c-9b4f-0cf9657687aa")
+	)
+	(wire
+		(pts
+			(xy 87.63 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137d93f9-ad63-4a24-a96a-3a9fd429eae3")
+	)
+	(polyline
+		(pts
+			(xy 158.75 97.79) (xy 232.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20497a67-b39a-4eba-b416-34fab31ae4fb")
+	)
+	(bus
+		(pts
+			(xy 158.75 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27235882-3b92-413b-84cc-3d1366558db9")
+	)
+	(polyline
+		(pts
+			(xy 125.73 105.41) (xy 256.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c1ceb9-04c9-4114-9bdc-eca66b2abd65")
+	)
+	(bus
+		(pts
+			(xy 87.63 66.04) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f50b532-7793-4280-8ef5-cf126ce4212e")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 168.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337a50cd-f8ec-47c1-8199-f3adaa209656")
+	)
+	(wire
+		(pts
+			(xy 88.9 107.95) (xy 91.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a37cfc6-8fbb-4bf2-8ce5-55c595e0eccd")
+	)
+	(bus
+		(pts
+			(xy 76.2 162.56) (xy 80.01 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afd3a92-79d1-4d97-b6b0-4e49e4caf8a1")
+	)
+	(polyline
+		(pts
+			(xy 137.16 29.21) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9bcd66-138d-459d-9125-144d317732a6")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb5c644-5e32-4acd-80f9-e5205996ab5a")
+	)
+	(polyline
+		(pts
+			(xy 128.27 29.21) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f197827-2c87-467f-8dbf-ec750ab1cad4")
+	)
+	(bus
+		(pts
+			(xy 76.2 158.75) (xy 80.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ff876a-7f78-48c1-a892-8c86497110e4")
+	)
+	(wire
+		(pts
+			(xy 163.83 40.64) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c6bc30-b2f4-44ff-807b-ecddcf5e7cd6")
+	)
+	(wire
+		(pts
+			(xy 158.75 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551e9d48-840f-48c7-a42a-540ec7a5b6e4")
+	)
+	(wire
+		(pts
+			(xy 158.75 119.38) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555e3675-d736-4df3-bc00-6404905fe283")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58956cfa-4461-44b0-87e2-459ba4002434")
+	)
+	(polyline
+		(pts
+			(xy 158.75 83.82) (xy 232.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5910c653-df02-4213-a1c8-293ec98d5d98")
+	)
+	(bus
+		(pts
+			(xy 245.11 119.38) (xy 241.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d59e899-092f-4bde-b9c7-48c7ffbf3f5c")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 80.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db6b566-6fa6-4a43-83ad-3c3e967474ab")
+	)
+	(wire
+		(pts
+			(xy 163.83 59.69) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f03e7f6-6d4f-4902-a6f6-212bac974eb5")
+	)
+	(wire
+		(pts
+			(xy 163.83 35.56) (xy 168.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6290e2d4-c6ff-4678-a8b4-62922b91cbb6")
+	)
+	(bus
+		(pts
+			(xy 229.87 71.12) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fa6cb5-fd9e-4ec5-8371-547377b483e1")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a26706c-ea4c-4653-8e5f-9f459472ca83")
+	)
+	(polyline
+		(pts
+			(xy 27.94 138.43) (xy 27.94 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae13293-2264-4f25-bcd3-c1a72dfe31c6")
+	)
+	(polyline
+		(pts
+			(xy 31.75 172.72) (xy 102.87 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3c135c-1d9b-4e20-ac8e-2910ad9aeab3")
+	)
+	(polyline
+		(pts
+			(xy 248.92 29.21) (xy 248.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773000c2-c25c-4c54-b376-ceb6f031b37c")
+	)
+	(bus
+		(pts
+			(xy 229.87 45.72) (xy 234.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ebc5e9-3802-43d0-9184-0e0d00b2d9eb")
+	)
+	(wire
+		(pts
+			(xy 87.63 59.69) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f89a983-8443-4c47-a27f-e26c02ce8309")
+	)
+	(polyline
+		(pts
+			(xy 236.22 87.63) (xy 236.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fac8b27-1dee-488d-a59a-ff5fc9ad9c1e")
+	)
+	(polyline
+		(pts
+			(xy 22.86 25.4) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81be4ae7-9012-416a-9964-d8e702c8317c")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 168.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ecd766-c546-48e4-85ae-e5c640840fef")
+	)
+	(bus
+		(pts
+			(xy 229.87 38.1) (xy 234.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86530276-3b82-4ca8-ae48-e089e17d6011")
+	)
+	(wire
+		(pts
+			(xy 87.63 40.64) (xy 90.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e2240b-291c-4e0a-b7c3-82570f02d001")
+	)
+	(bus
+		(pts
+			(xy 229.87 40.64) (xy 234.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6b9963-f3da-42cb-a9f8-4d5629fc2467")
+	)
+	(bus
+		(pts
+			(xy 158.75 139.7) (xy 165.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d40fd54-e0da-4a8e-b25a-6ea3a52381df")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 168.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d50d680-1338-46de-a4fa-f877ae127d4d")
+	)
+	(wire
+		(pts
+			(xy 38.1 149.86) (xy 40.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b91fd9-87c0-4139-80d9-69bbdb961d58")
+	)
+	(bus
+		(pts
+			(xy 229.87 43.18) (xy 234.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ebc329-39ed-4070-98ba-4f611f4deb25")
+	)
+	(polyline
+		(pts
+			(xy 31.75 134.62) (xy 102.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d52f5a-8fc2-4d48-aa32-3f971896d0d7")
+	)
+	(bus
+		(pts
+			(xy 163.83 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6752f51-ca13-46d7-b93f-5e4855b613f7")
+	)
+	(polyline
+		(pts
+			(xy 121.92 109.22) (xy 121.92 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac91ee23-0359-4a4d-8a5a-5a91b8f49986")
+	)
+	(bus
+		(pts
+			(xy 241.3 149.86) (xy 245.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adac78db-0855-4e16-83b5-dd6e56874c38")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6509e92-a98f-4e9e-bcea-d5e2f31d09da")
+	)
+	(bus
+		(pts
+			(xy 76.2 152.4) (xy 80.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd9f6ef-433e-4259-8ace-e8a2f7218843")
+	)
+	(wire
+		(pts
+			(xy 163.83 44.45) (xy 168.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc03a69e-4cfc-4fb1-aad4-7b894ddaa6ee")
+	)
+	(polyline
+		(pts
+			(xy 125.73 154.94) (xy 256.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f182af-e7a1-4731-b6b8-7f12d3a01f21")
+	)
+	(polyline
+		(pts
+			(xy 31.75 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c6e312-54e1-4f19-bcc7-7b2ec7addbe3")
+	)
+	(bus
+		(pts
+			(xy 241.3 142.24) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7edd2f7-8ec7-4519-afda-6833da3291de")
+	)
+	(polyline
+		(pts
+			(xy 99.06 86.36) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a1cf65-7a4e-4af3-b960-5edb2a78ea1b")
+	)
+	(polyline
+		(pts
+			(xy 31.75 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9482fb4-7c4e-46c8-b40d-c6e263026a25")
+	)
+	(wire
+		(pts
+			(xy 88.9 105.41) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc211653-a34b-4091-ba3d-a2ab9c4004d8")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.92) (xy 158.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf845354-9eb7-4a46-9cb5-a216b681aa6e")
+	)
+	(wire
+		(pts
+			(xy 34.29 52.07) (xy 36.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c46e42-1581-41c0-8b6e-956d93f87cf5")
+	)
+	(polyline
+		(pts
+			(xy 140.97 25.4) (xy 243.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34828a2-1cdf-4f7d-88a4-f2e4c144071e")
+	)
+	(bus
+		(pts
+			(xy 229.87 68.58) (xy 234.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d388ae62-06b3-495d-937b-6825c41445cb")
+	)
+	(polyline
+		(pts
+			(xy 154.94 87.63) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3dca901-6c2b-4c2a-b133-961a37a062c4")
+	)
+	(polyline
+		(pts
+			(xy 243.84 25.4) (xy 245.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dccb5816-659b-4d12-9e47-76829d17448c")
+	)
+	(polyline
+		(pts
+			(xy 19.05 29.21) (xy 19.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd647be-c314-4893-983b-22eea2abee36")
+	)
+	(wire
+		(pts
+			(xy 163.83 52.07) (xy 168.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c1e45-517b-4fed-921c-2cd73a603443")
+	)
+	(polyline
+		(pts
+			(xy 140.97 76.2) (xy 245.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17fcc2f-e75a-48dd-ba78-e125ccde7ad2")
+	)
+	(wire
+		(pts
+			(xy 88.9 97.79) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f6a0f4-7944-4121-b6c5-6c7d3bf0eeb9")
+	)
+	(polyline
+		(pts
+			(xy 106.68 138.43) (xy 106.68 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e511f0f9-fee7-48a9-8d6f-10607b5a76b4")
+	)
+	(bus
+		(pts
+			(xy 241.3 147.32) (xy 245.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86789b1-08e1-4156-a0c1-1702860cac3c")
+	)
+	(bus
+		(pts
+			(xy 163.83 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8eeefd-22be-4a2d-b06e-ba79dac30dfc")
+	)
+	(bus
+		(pts
+			(xy 158.75 129.54) (xy 165.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02e0e86-1eec-472e-b511-606088d1be52")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 90.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19de7a1-b7b0-4b8f-bb0b-a480da19a06a")
+	)
+	(wire
+		(pts
+			(xy 34.29 101.6) (xy 36.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fe35ae-b5d1-4365-b46a-498c75c2e462")
+	)
+	(bus
+		(pts
+			(xy 34.29 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb156bfe-f0d9-4471-a0df-34bfe7e9958c")
+	)
+	(label "+3.3V"
+		(at 34.29 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "056f9dcc-123d-4546-982e-62fc29590349")
+	)
+	(label "VCCO"
+		(at 158.75 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08e2e9e5-d0fb-4e02-a17d-1a86b3266f4a")
+	)
+	(label "GPIO3.[0..23]"
+		(at 234.95 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e2149f0-6b81-45b2-9418-dd4a06b9cf89")
+	)
+	(label "GPIO3.[0..23]"
+		(at 245.11 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ea0498d-64b7-48dd-a73a-675e5d76afd4")
+	)
+	(label "GPIO2.[0..5]"
+		(at 245.11 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "117aeccd-5cdf-4278-aa24-944b9998d997")
+	)
+	(label "GPIO0.[0..24]"
+		(at 245.11 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bbe9516-ed67-4ea1-aead-e465e003a445")
+	)
+	(label "100MHz"
+		(at 90.17 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d245ba3-de4e-4dc9-b03d-2377dc1d25c6")
+	)
+	(label "LED[0..4]"
+		(at 234.95 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20ee99db-41b1-4247-a72d-9d547bb0e1cd")
+	)
+	(label "SW[0..4]"
+		(at 234.95 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24a2349b-1be3-4c4c-91df-bf209df0bd5e")
+	)
+	(label "LED[0..4]"
+		(at 245.11 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26603bbb-a17c-4a81-8720-376fa82ec21d")
+	)
+	(label "JTAG{TCK, TDI, TDO, TMS}"
+		(at 80.01 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27d15dde-fa7d-4599-bacc-6aeafdaf0479")
+	)
+	(label "JTAG{TCK, TDI, TDO, TMS}"
+		(at 163.83 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29a5714c-a98a-48ea-b9fb-a19727a55d43")
+	)
+	(label "GPIO1.[0..23]"
+		(at 234.95 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "306652da-6873-49d9-b5d4-04b5733bbaff")
+	)
+	(label "VCCINT"
+		(at 163.83 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34871367-77ee-455e-b44a-5d0bf1145fcb")
+	)
+	(label "VUSB"
+		(at 34.29 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37f02eac-da40-421b-8820-2424ab73ac35")
+	)
+	(label "FPGA.12MHz"
+		(at 163.83 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3898923e-5cb9-478f-91de-7b670bf0d4e8")
+	)
+	(label "+2.5V"
+		(at 91.44 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3abd8a23-70b7-4aea-98e7-dddbaa4edc9a")
+	)
+	(label "+7.4V"
+		(at 158.75 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42e96799-cfe2-48c2-8f02-73d22720cd86")
+	)
+	(label "100MHz"
+		(at 163.83 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43ccd199-5698-49a1-8763-6f49ebb70067")
+	)
+	(label "FPGA.12MHz"
+		(at 90.17 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45161ce3-7481-4bf7-8595-4a9ea50149fe")
+	)
+	(label "+3.3V"
+		(at 91.44 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46db1aec-c975-4ddc-83ad-67f0e5e4fca4")
+	)
+	(label "CLK.SEL"
+		(at 163.83 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f1d3801-8e5c-4ba9-996c-b4a6c18f8e99")
+	)
+	(label "VCCINT"
+		(at 91.44 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56e988c0-6352-44f6-8d9a-cdb8e5958085")
+	)
+	(label "GPIO.CLK{12[0..1] 50[0..1] 100[0..1]}"
+		(at 90.17 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56fb0d83-1aad-446f-9174-819fc6184b36")
+	)
+	(label "SW[0..4]"
+		(at 245.11 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5baaabae-e188-43c8-9028-347a357f5728")
+	)
+	(label "GPIO2.[0..5]"
+		(at 234.95 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f3e68a8-5334-4e9f-afd9-6e9c8aaf45fc")
+	)
+	(label "+2.5V"
+		(at 158.75 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66f469a9-ad0d-41a0-b211-1372540a10a7")
+	)
+	(label "VCCO"
+		(at 90.17 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c2e2c1f-e026-47c5-84f2-2cc4f939d6ce")
+	)
+	(label "VCCO"
+		(at 163.83 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f02d0f5-61fe-4945-a49e-e12d8287996f")
+	)
+	(label "FT.GPIO[0..3]"
+		(at 158.75 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7719927f-0bfc-4786-a6dc-9895331456eb")
+	)
+	(label "50MHz"
+		(at 163.83 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "782a4462-c961-4b5b-ba16-6fb5da73026a")
+	)
+	(label "+3.3V"
+		(at 80.01 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7adf5f56-8142-4efd-8edc-f6249e243720")
+	)
+	(label "FT.12MHz"
+		(at 38.1 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b4a814c-f3b3-4b90-a96b-fb7d361e8c0c")
+	)
+	(label "GPIO0.[0..24]"
+		(at 234.95 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83e8f12f-4eb8-4d6d-89e4-90c544876b18")
+	)
+	(label "FPGA{MISO MOSI SCLK CS}"
+		(at 80.01 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "849a7626-ce41-4121-99af-fb80e2c89f56")
+	)
+	(label "+2.5V"
+		(at 163.83 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f840215-abe4-42dc-b59d-f4e39d0662a3")
+	)
+	(label "CLK.MUX"
+		(at 90.17 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6d9bc4e-91f3-44bc-951d-07d538ab1bc8")
+	)
+	(label "CLK.SEL"
+		(at 34.29 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7b992ea-b6f1-43a0-88e5-aeb58af2559e")
+	)
+	(label "+3.3V"
+		(at 158.75 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa5d69f9-5a45-49de-abdb-21a3bc94b8e3")
+	)
+	(label "GPIO{CLK[0..1]}"
+		(at 158.75 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa5ebd28-50e4-4610-9f00-9159375c4b98")
+	)
+	(label "+7.4V"
+		(at 91.44 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b47f7bc6-8b97-4099-b6ce-e86a133d98b0")
+	)
+	(label "+3.3V"
+		(at 163.83 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4b8ae98-450c-4346-8e5d-a9cabef89ea6")
+	)
+	(label "VUSB"
+		(at 80.01 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0f101cb-6875-4a62-95b2-d37cbc6ded00")
+	)
+	(label "FT.12MHz"
+		(at 90.17 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca2749fc-cc0d-4823-b990-269704fc948e")
+	)
+	(label "FPGA{MISO MOSI SCLK CS}"
+		(at 163.83 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "def9b1d4-90e3-4b37-af72-d23d9de60ca9")
+	)
+	(label "FT.GPIO[0..3]"
+		(at 80.01 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e80ae400-2332-4d9b-acf0-9bdc3aafc30d")
+	)
+	(label "GPIO{CLK[0..1]}"
+		(at 34.29 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8883919-4f32-4a25-b18c-7c67e6466ecd")
+	)
+	(label "GPIO1.[0..23]"
+		(at 245.11 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edae126e-5c42-4d43-979a-e7fce6f9f4fc")
+	)
+	(label "GPIO.CLK{12[0..1] 50[0..1] 100[0..1]}"
+		(at 158.75 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef906be6-d45e-41cc-b81e-040c54424624")
+	)
+	(label "CLK.MUX"
+		(at 163.83 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4c5f0a6-4106-4ef5-9c27-1b463ea21df9")
+	)
+	(label "50MHz"
+		(at 90.17 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7b1274-3fd1-4dd6-b5c8-4f54c6f3ab4a")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 199.39 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1940bd2b-7dc6-4637-945c-6985320f5583")
+		(property "Reference" "H3"
+			(at 201.93 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 201.93 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 219.71 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b65de2-c7dd-433c-bf86-a0009b349d18")
+		(property "Reference" "H4"
+			(at 222.25 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 222.25 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 161.29 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d51ac77-8a37-46c5-b52d-b2942f1e0883")
+		(property "Reference" "H1"
+			(at 163.83 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 163.83 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 180.34 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f4ad75a-73e9-4ad7-8e37-1943e740127c")
+		(property "Reference" "H2"
+			(at 182.88 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 182.88 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 180.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 31.75)
+		(size 60.96 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4be77681-36a2-42a3-88c6-7aa893f43610")
+		(property "Sheetname" "Spartan6"
+			(at 168.91 30.1734 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 168.91 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "JTAG{TMS TDO TDI TCK}" input
+			(at 168.91 64.77 180)
+			(uuid "adcc5e79-1f3d-40c1-bd12-88d356859dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCINT" input
+			(at 168.91 59.69 180)
+			(uuid "2a442945-36be-4cb3-ac8a-245e091129ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+2.5V" input
+			(at 168.91 55.88 180)
+			(uuid "6085627a-65e0-4484-90f7-a9ca0fc777f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 168.91 52.07 180)
+			(uuid "a1c4fbc5-bac2-408b-ad3e-4e385f15da3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "100MHz" input
+			(at 168.91 49.53 180)
+			(uuid "ba80e0e4-0ac8-4724-a40d-8cf79117e82a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA.12MHz" input
+			(at 168.91 44.45 180)
+			(uuid "66376aa8-9610-4367-8650-7700890ff576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "50MHz" input
+			(at 168.91 46.99 180)
+			(uuid "ec6f931e-6e1a-47b1-a90b-42caf09988de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO" output
+			(at 168.91 40.64 180)
+			(uuid "34ba7a1b-807d-4485-8548-cf81e1293465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK.MUX" input
+			(at 168.91 38.1 180)
+			(uuid "171f5b02-61ce-42ec-ba92-b58eeceb0158")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK.SEL" output
+			(at 168.91 35.56 180)
+			(uuid "a70808cb-747b-499a-8d51-9b42b2c84d06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO0.[0..24]" bidirectional
+			(at 229.87 38.1 0)
+			(uuid "271f5c5e-8d60-41d6-a1e2-b1caa35fc95c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2.[0..5]" bidirectional
+			(at 229.87 40.64 0)
+			(uuid "8695c349-0b63-4074-b0cd-fa5cbc2a17ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED[0..4]" bidirectional
+			(at 229.87 68.58 0)
+			(uuid "7e3cb0bc-d728-4c31-a0ab-cf43fe6e1971")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW[0..4]" bidirectional
+			(at 229.87 71.12 0)
+			(uuid "6a157b2a-3b0a-4b93-a301-3f86786c3fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3.[0..23]" bidirectional
+			(at 229.87 43.18 0)
+			(uuid "7f6730fd-813c-4952-8e64-e0af7ed5c4d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1.[0..23]" bidirectional
+			(at 229.87 45.72 0)
+			(uuid "a9d5a78e-b8aa-4ed3-90dd-128039d87b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA{MISO MOSI SCLK CS}" bidirectional
+			(at 168.91 68.58 180)
+			(uuid "dfd30755-91f8-4a7b-9155-23e4dae2d363")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 142.24)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac0e33cd-9ee2-40c4-b756-acb56557dafa")
+		(property "Sheetname" "Prog and Flash"
+			(at 40.64 140.6634 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ProgandCrystal.sch.kicad_sch"
+			(at 40.64 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VUSB" output
+			(at 76.2 146.05 0)
+			(uuid "96fcfdee-6ab5-4f09-aa60-7428fb045275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V" input
+			(at 76.2 148.59 0)
+			(uuid "853a4b93-0651-4e00-8411-3ff02fe78595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT.12MHz" input
+			(at 40.64 149.86 180)
+			(uuid "991769ce-b982-402b-9e76-e4fe93e393ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA{MISO MOSI SCLK CS}" bidirectional
+			(at 76.2 162.56 0)
+			(uuid "50ef1ee2-8e30-47c2-a0c0-64a8f8d8cae7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG{TCK, TDI, TDO, TMS}" bidirectional
+			(at 76.2 158.75 0)
+			(uuid "301716d0-7e75-4432-9720-b1756dfa2560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT.GPIO[0..3]" input
+			(at 76.2 152.4 0)
+			(uuid "ee07a24e-e9b0-498d-ab05-036c20d1e1f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 33.02)
+		(size 50.8 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3441b14-1907-47f7-9fc4-d4566fd63433")
+		(property "Sheetname" "Clock,Mux, and Distribution"
+			(at 36.83 31.4434 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock+mux.kicad_sch"
+			(at 36.83 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "100MHz" output
+			(at 87.63 40.64 0)
+			(uuid "e35a7601-8e39-47d0-bf43-14da214efd82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK.MUX" output
+			(at 87.63 59.69 0)
+			(uuid "3f4360b8-3e1b-4b9f-b353-9cac7d4a8c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "50MHz" output
+			(at 87.63 44.45 0)
+			(uuid "4ca1f328-6b93-4290-8b56-266d7d55a89f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK.SEL" input
+			(at 36.83 48.26 180)
+			(uuid "517d9b7e-0cbc-451f-bce7-e67adc6c86a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 36.83 52.07 180)
+			(uuid "190cb5fb-b8a6-449d-b179-fa092cbb7edb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO{CLK[0..1]}" input
+			(at 36.83 44.45 180)
+			(uuid "de61938a-6e58-4ea4-bbca-9dead92852ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA.12MHz" output
+			(at 87.63 53.34 0)
+			(uuid "7a369b2b-236f-41ee-9b90-bbf52807b5ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FT.12MHz" output
+			(at 87.63 48.26 0)
+			(uuid "04f73f23-bbff-4ceb-b415-46fbae1323fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCCO" input
+			(at 87.63 63.5 0)
+			(uuid "56a1f17f-bb26-44a4-b7b3-b9d03fd15f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO.CLK{12[0..1] 50[0..1] 100[0..1]}" output
+			(at 87.63 66.04 0)
+			(uuid "bcda7a68-12fa-4613-b568-d7257bc9adcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 88.9)
+		(size 52.07 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6aa33df-930a-4b5f-a280-c1eca5bc2fe1")
+		(property "Sheetname" "Power Supply"
+			(at 36.83 87.3234 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_supply.sch.kicad_sch"
+			(at 36.83 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" output
+			(at 88.9 97.79 0)
+			(uuid "657b43f4-37e2-4cc1-a8f7-2b094501f6f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+2.5V" output
+			(at 88.9 101.6 0)
+			(uuid "d32fd950-27d4-446e-8dec-e7ea4330f2ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VUSB" input
+			(at 36.83 101.6 180)
+			(uuid "65e629df-e6ad-4585-8aec-8b0470b80054")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCINT" output
+			(at 88.9 105.41 0)
+			(uuid "c4d45899-5911-428b-9f9f-1b68a950923b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+7.4V" output
+			(at 88.9 107.95 0)
+			(uuid "e1d7cb3f-7d11-4807-a3f0-d9693571169e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 111.76)
+		(size 76.2 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb0f3810-137b-4421-ada9-ed63b6815278")
+		(property "Sheetname" "GPIO, Leds, and Switches"
+			(at 165.1 110.1834 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 165.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO3.[0..23]" bidirectional
+			(at 241.3 144.78 0)
+			(uuid "74239fd5-e869-4f09-9bfc-23f59f55f653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED[0..4]" bidirectional
+			(at 241.3 119.38 0)
+			(uuid "a7585552-132b-4fab-99ab-a831fd5e37de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO.CLK{12[0..1] 50[0..1] 100[0..1]}" input
+			(at 165.1 143.51 180)
+			(uuid "9e25e5cb-2000-4508-939c-7b0a04c7e884")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO{CLK[0..1]}" output
+			(at 165.1 139.7 180)
+			(uuid "a23dc51e-9752-4ce5-8bb7-50cb3f56ca6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW[0..4]" bidirectional
+			(at 241.3 115.57 0)
+			(uuid "5ce1e480-e8ab-4ac3-8397-810144244c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+2.5V" output
+			(at 165.1 119.38 180)
+			(uuid "33aa6dd4-4bb8-40ea-8027-1add7640452b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 165.1 121.92 180)
+			(uuid "267a3f6d-f90d-4a01-b8a0-bd69411d4d67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO" input
+			(at 165.1 114.3 180)
+			(uuid "8795e624-db0a-4ee1-9afe-84ef0c8566f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT.GPIO[0..3]" input
+			(at 165.1 129.54 180)
+			(uuid "811bfb05-dc6d-49bb-bcca-3a5351af5256")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+7.4V" input
+			(at 165.1 124.46 180)
+			(uuid "2f8c689c-6088-4ae7-a839-4b3970eb456b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO0.[0..24]" bidirectional
+			(at 241.3 149.86 0)
+			(uuid "41c3c7bd-4cf9-457f-86c9-4c00d1c9f455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1.[0..23]" bidirectional
+			(at 241.3 142.24 0)
+			(uuid "10668cdb-6133-405a-b760-4125b864c7d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2.[0..5]" bidirectional
+			(at 241.3 147.32 0)
+			(uuid "76e3a08b-a5f5-4bac-8a79-8ac150a66efb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Spartan 6 FPGA Board"
+				(path "/73d64222-47da-40a3-b561-6e9f55563577"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

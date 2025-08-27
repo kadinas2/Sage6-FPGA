@@ -1,0 +1,12 @@
+### Missing 3D models - created on 2025-08-24 15:12
+### Printed by checking_3D_models plugin
+Board file: /Users/kadinshaheen/Documents/KiCad/Spartan 6 FPGA Board/Spartan 6 FPGA Board/Spartan 6 FPGA Board.kicad_pcb
+3D missing models written to:
+/Users/kadinshaheen/Documents/KiCad/Spartan 6 FPGA Board/Spartan 6 FPGA Board/Spartan 6 FPGA Board_missing3Dmodels.txt
+-------
+('U10', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm_HandSoldering.wrl')
+('U11', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm_HandSoldering.wrl')
+('U12', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Oscillator.3dshapes/Oscillator_SMD_EuroQuartz_XO53-4Pin_5.0x3.2mm_HandSoldering.wrl')
+-------
+NUM of 3D missing models:3
+checked extensions ['.stp', '.step', '.stpZ']
